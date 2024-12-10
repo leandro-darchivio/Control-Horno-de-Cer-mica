@@ -1,6 +1,4 @@
-/* Electric kiln controller v1.0
- *   by Steve Turner (arduinokiln@gmail.com)
- *   See ReadMe.txt
+/* 
  *   
  *   OJO, con alimentacion de 5 volts en la entrada jack de alimentacion no reconoce la memoria SD
  */
@@ -13,11 +11,10 @@
 #include <LiquidCrystal_I2C.h>             
 
 
-// Setup user variables (CHANGE THESE TO MATCH YOUR SETUP)
 const int lcdRefresh = 1930;           // Frecuencia de actualización de pantalla cuando se ejecuta (ms)
 const int maxTemp = 1600;              // Maxima temperatura, si se alcanza se apagará!
 const int numZones = 1;                // Numero de zonas (maximo 3)
-const int pidCycle = 2500;             // Time for a complete PID on/off cycle for the heating elements (ms)
+const int pidCycle = 2500;            
 double pidInput[numZones];             // Input array for PID loop (actual temp reading from thermocouple).  NO CAMBIAR!
 double pidOutput[numZones];            // Output array for PID loop (relay for heater).                      NO CAMBIAR!
 double pidSetPoint[numZones];          // Setpoint array for PID loop (temp you are trying to reach).        NO CAMBIAR!
