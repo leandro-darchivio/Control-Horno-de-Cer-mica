@@ -1,0 +1,4 @@
+024 a 100.08min.R010m
+Meseta 20 min
+TOTAL=28min
+600,100,20

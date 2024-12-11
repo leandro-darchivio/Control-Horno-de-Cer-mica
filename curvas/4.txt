@@ -1,0 +1,5 @@
+GRES
+Dos etapas
+Hornos de alta/gres
+180,400,10
+240,1260,15
