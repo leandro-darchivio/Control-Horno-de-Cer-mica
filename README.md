@@ -50,3 +50,13 @@ Este proyecto consiste en la implementación de un controlador para un horno de 
 - **Seguridad:** El sistema apagará los calefactores si se alcanza la temperatura máxima configurada (`maxTemp`).
 - **Memoria SD:** Utiliza una fuente de alimentación externa para garantizar que la tarjeta SD sea reconocida correctamente.
 
+## Imágenes del Circuito
+
+### Diagrama 1
+![Circuito 1](./1_arreglado.jpg)
+
+### Diagrama 2
+![Circuito 2](./2.jpg)
+
+### Diagrama 3
+![Circuito 3](./3.jpg)
