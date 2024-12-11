@@ -53,7 +53,7 @@ Este proyecto consiste en la implementación de un controlador para un horno de 
 ## Imágenes del Circuito
 
 ### Diagrama 1
-![Circuito 1](./1_arreglado.jpg)
+![Circuito 1](./1_ARREGLADO.jpg)
 
 ### Diagrama 2
 ![Circuito 2](./2.jpg)
